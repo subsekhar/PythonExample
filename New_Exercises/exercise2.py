@@ -8,4 +8,4 @@ output=""
 for i in range(0,6):
     output+=str(random.randint(0,9))
 
-print(output)
+print("The winning lottery number is:", output)
